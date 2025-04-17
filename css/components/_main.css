@@ -85,3 +85,44 @@
     height: 519px;
     
 }
+
+.form_select{
+    appearance: revert;
+}
+
+.form_oprosa_1.hidden {
+    display: none;
+}
+
+.send_btn1{
+    background-color: #8B8B8B;
+}
+.form_oprosa_2.open{
+    display: block;
+    appearance: revert;
+    
+}
+
+.form_oprosa_2{
+    
+    display: none;
+    
+}
+.send_btn2{
+    background-color: #8B8B8B;
+}
+
+.form_oprosa_3.open{
+    display: block;
+    appearance: revert;
+    
+}
+
+.form_oprosa_3{
+    
+    display: none;
+    
+}
+.send_btn3{
+    background-color: #8B8B8B;
+}
