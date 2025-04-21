@@ -1,5 +1,56 @@
-.chose_page{
-     width: 1763px;
-     height: 883px;
+.chose_page {
+    display: flex;
+    flex-direction: column;
+    width: 1763px;
+    height: 883px;
     background-color: #BCBCBC;
+}
+
+.page_slider {
+    width: 1763px;
+    height: 215px;
+    background-color: #929292;
+    margin-top: 32px;
+}
+
+.flag_country {
+
+    margin: 32px auto 0;
+    width: 1260px;
+    height: 532px;
+}
+
+.flag_ul {
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+    gap: 106px;
+
+}
+
+.flag {
+    width: 234px;
+    height: 208px;
+}
+
+.flag_icon {
+    border-radius: 32px;
+    border: 2px solid #363636;
+    width: 221px;
+    height: 174px;
+}
+
+.flag_icon img {
+    border-radius: 32px;
+
+}
+
+.county_name {
+    width: 221px;
+    height: 28px;
+    margin: 6px 0;
+    background-color: #D9D9D9;
+}
+.county_name p {
+    text-align: center;
+    
 }
