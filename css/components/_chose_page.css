@@ -54,3 +54,33 @@
     text-align: center;
     
 }
+
+.marquee-container {
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+
+    width: 1763px;
+    height: 215px;
+    font-size: 0; /* Убираем пробелы между элементами */
+}
+
+.marquee {
+    animation: scrollMarquee 10s linear infinite;
+    display: inline-block;
+    will-change: transform;
+}
+
+@keyframes scrollMarquee {
+    from { transform: translateX(0%); }
+    to   { transform: translateX(-146.5%); }
+}
+
+.marquee li {
+    display: inline-block;
+}
+
+.marquee img {
+    width: 323px;
+    vertical-align: middle;
+}
