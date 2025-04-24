@@ -1,0 +1,50 @@
+.tech_list_page{
+    display: flex;
+    width: 1763px;
+    min-height: 757px;
+    background-color: #BCBCBC;
+}
+
+.tech_list{
+    margin: 67px auto;
+    width: 1614px;
+    height: 663px;
+
+}
+
+.tech_list ul{
+    gap: 23px 42px;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+
+}
+
+.tech_list_li{
+    width: 372px;
+    height: 320px;
+    display: flex;
+    align-items: c;
+
+    flex-direction: column;
+}
+
+.tech_list_img img{
+    border-radius: 32px;
+    border: 2px solid gray;
+
+}
+
+.tech_list_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9px;
+    height: 43px;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+.tech_list_name p{
+    font-size: 32px;
+    font-weight: 500;
+
+}
