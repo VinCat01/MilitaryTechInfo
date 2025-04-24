@@ -27,6 +27,8 @@
 
 }
 
+
+
 .flag {
     width: 234px;
     height: 208px;
@@ -62,7 +64,7 @@
 
     width: 1763px;
     height: 215px;
-    font-size: 0; /* Убираем пробелы между элементами */
+    font-size: 0;
 }
 
 .marquee {
