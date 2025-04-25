@@ -1,10 +1,11 @@
-.tech_description{
+.tech_description {
     display: flex;
     width: 1763px;
     height: 5706px;
     background-color: #BCBCBC;
 }
-.first_part{
+
+.first_part {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,40 +13,45 @@
     width: 1666.17px;
     height: 2907px;
 }
-.fp_left_side{
+
+.fp_left_side {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 639.17px;
     height: 2754px;
 }
-.fp_left_top_side{
+
+.fp_left_top_side {
     display: flex;
     flex-direction: column;
 
     width: 608px;
     height: 1022px;
-    gap:34px 0;
+    gap: 34px 0;
 }
-.fp_left_top_side img{
-    border:2px solid #363636;
-    border-radius:32px ;
+
+.fp_left_top_side img {
+    border: 2px solid #363636;
+    border-radius: 32px;
 }
-.fp_content{
+
+.fp_content {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 17px 39px;
     width: 605px;
     height: 207px;
     background-color: #D9D9D9;
 }
-.p_content{
+
+.p_content {
     text-align: center;
     font-size: 32px;
     font-weight: 500;
 }
 
-.fp_left_bottom_side{
+.fp_left_bottom_side {
     width: 639.17px;
     height: 1551px;
     display: flex;
@@ -53,7 +59,7 @@
     justify-content: space-between;
 }
 
-.Northrop{
+.Northrop {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -62,18 +68,19 @@
     height: 311px;
 }
 
-.Northrop img{
+.Northrop img {
     border-radius: 32px;
     border: 2px solid #363636;
 }
-.Northrop_name{
+
+.Northrop_name {
     width: 558px;
     height: 35px;
     background-color: #D9D9D9;
     text-align: center;
 }
 
-.A7-D{
+.A7-D {
     width: 608px;
     height: 459px;
     display: flex;
@@ -83,37 +90,108 @@
 
 }
 
-.A7-D img{
+.A7-D img {
     border-radius: 32px;
     border: 2px solid #363636;
 }
 
-.A7-D_name{
+.A7-D_name {
     width: 108px;
     height: 35px;
     background-color: #D9D9D9;
     text-align: center;
 }
 
-.Gau{
+.Gau {
     width: 617.83px;
     height: 403px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
-.Gau img{
+
+.Gau img {
     border-radius: 32px;
     border: 2px solid #363636;
 }
-.Gau_name{
+
+.Gau_name {
     width: 259px;
     height: 219px;
     padding: 25px;
     background-color: #D9D9D9;
 }
 
+.tech_name {
+    display: flex;
+    width: 955px;
+    height: 59px;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+
+.tech_name p {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.short_characteristics {
+    width: 998px;
+    height: 371px;
+    background-color: #D9D9D9;
+    margin-top: 31px;
+    padding: 30px;
+}
+
+.short_characteristics p {
+    text-align: left;
+    font-size: 24px;
+}
+
+.short_characteristics p span {
+    font-weight: 600;
+}
+
+.short_description {
+    margin-top: 66px;
+    width: 998px;
+    height: 272px;
+    padding: 25px;
+    background-color: #D9D9D9;
+}
+
+.short_description p {
+    text-align: left;
+    font-size: 24px;
+
+}
+
+.short_description p span{
+    font-weight: 600;
+}
+
+.story_of_made{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 998px;
+    height: 2090px;
+    margin-top: 30px;
+    padding: 13.5px;
+}
+.story_of_made p{
+    text-align: left;
+    font-size: 24px;
 
 
+}
+.story_of_made p span{
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    font-weight: 600;
 
+    
+}

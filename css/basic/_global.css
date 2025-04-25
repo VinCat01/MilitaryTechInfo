@@ -19,3 +19,9 @@ body {
     max-width: 1763px;
     margin:  0 auto;
 }
+a {
+    font-family: IBM Plex Mono;
+}
+p {
+    font-family: IBM Plex Mono;
+}
