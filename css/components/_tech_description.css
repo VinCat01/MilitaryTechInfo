@@ -1,5 +1,6 @@
 .tech_description {
     display: flex;
+    flex-direction: column;
     width: 1763px;
     height: 5706px;
     background-color: #BCBCBC;
@@ -78,6 +79,7 @@
     height: 35px;
     background-color: #D9D9D9;
     text-align: center;
+    font-weight: 500;
 }
 
 .A7-D {
@@ -100,6 +102,7 @@
     height: 35px;
     background-color: #D9D9D9;
     text-align: center;
+    font-weight: 500;
 }
 
 .Gau {
@@ -119,8 +122,9 @@
 .Gau_name {
     width: 259px;
     height: 219px;
-    padding: 25px;
+    padding: 15px;
     background-color: #D9D9D9;
+    font-weight: 500;
 }
 
 .tech_name {
@@ -177,7 +181,7 @@
     display: flex;
     background-color: #D9D9D9;
     width: 998px;
-    height: 2090px;
+    height: 2106px;
     margin-top: 30px;
     padding: 13.5px;
 }
@@ -194,4 +198,101 @@
     font-weight: 600;
 
     
+}
+
+.second_part{
+    display: flex;
+    width: 1646px;
+    height: 1775px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.sp_left_side{
+    width: 998px;
+    height: 1775px;
+    background-color: #D9D9D9;
+    padding: 13.5px;
+    
+}
+.sp_right_side{
+    width: 620px;
+    height: 1761px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.f15{
+    width: 619px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.f15 img {
+    border-radius: 32px;
+    border: 2px solid #363636;
+}
+
+.f15_name {
+    width: 140px;
+    height: 48px;
+    background-color: #D9D9D9;
+    text-align: center;
+    font-weight: 500;
+}
+
+.f117{
+    width: 619px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.f117 img {
+    border-radius: 32px;
+    border: 2px solid #363636;
+}
+
+.f117_name {
+    width: 140px;
+    height: 48px;
+    background-color: #D9D9D9;
+    text-align: center;
+    font-weight: 500;
+}
+
+.amg-65{
+    width: 619px;
+    height: 528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.amg-65 img {
+    border-radius: 32px;
+    border: 2px solid #363636;
+}
+
+.amg-65_name {
+    width: 480px;
+    height: 108px;
+    background-color: #D9D9D9;
+    text-align: center;
+    font-weight: 500;
 }
