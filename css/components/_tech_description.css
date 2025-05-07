@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1863px;
-    max-height: 5769px;
+    
     background-color: #BCBCBC;
 }
 
@@ -12,15 +12,16 @@
     justify-content: space-between;
     margin: 48px auto;
     max-width: 1666.17px;
-    height: 2907px;
+    gap:10px ;
+    
 }
 
 .fp_left_side {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     max-width: 639.17px;
-    height: 2754px;
+
+    
 }
 
 .fp_left_top_side {
@@ -28,7 +29,7 @@
     flex-direction: column;
 
     max-width: 608px;
-    max-height: 1122px;
+    
     gap: 34px 0;
 }
 
@@ -42,7 +43,7 @@
     flex-direction: column;
     padding: 17px 39px;
     max-width: 605px;
-    max-height: 307px;
+    
     background-color: #D9D9D9;
 }
 
@@ -54,8 +55,9 @@
 
 .fp_left_bottom_side {
     max-width: 639.17px;
-    height: 1551px;
+    gap: 300px;
     display: flex;
+    margin-top: 70px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -66,7 +68,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 636.33px;
-    height: 311px;
+    gap: 10px;
 }
 
 .Northrop img {
@@ -84,7 +86,7 @@
 
 .A7-D {
     max-width: 608px;
-    height: 459px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -107,7 +109,7 @@
 
 .Gau {
     max-width: 617.83px;
-    height: 403px;
+    gap: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -129,8 +131,8 @@
 
 .tech_name {
     display: flex;
-    max-width: 955px;
-    height: 59px;
+    max-width: 1000px;
+    
     align-items: center;
     justify-content: center;
     background-color: #D9D9D9;
@@ -144,7 +146,7 @@
 
 .short_characteristics {
     max-width: 998px;
-    max-height: 371px;
+    
     background-color: #D9D9D9;
     margin-top: 31px;
     padding: 30px;
@@ -162,7 +164,7 @@
 .short_description {
     margin-top: 66px;
     max-width: 998px;
-    max-height: 272px;
+    
     padding: 25px;
     background-color: #D9D9D9;
 }
@@ -181,7 +183,7 @@
     display: flex;
     background-color: #D9D9D9;
     max-width: 998px;
-    max-height: 2506px;
+    
     margin-top: 30px;
     padding: 13.5px;
 }
@@ -203,7 +205,7 @@
 .second_part{
     display: flex;
     max-width: 1646px;
-    max-height: 1805px;
+    gap: 10px;
     flex-direction: row;
     justify-content: space-between;
     margin: 0px auto;
@@ -211,7 +213,7 @@
 
 .sp_left_side{
     max-width: 998px;
-    max-height: 1805px;
+    
     font-size: 24px;
     background-color: #D9D9D9;
     padding: 13.5px;
@@ -219,7 +221,7 @@
 }
 .sp_right_side{
     max-width: 620px;
-    max-height: 1761px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -238,7 +240,7 @@
 
 .f15{
     max-width: 619px;
-    height: 458px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -262,7 +264,7 @@
 
 .f117{
     max-width: 619px;
-    height: 458px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -286,7 +288,7 @@
 
 .amg-65{
     max-width: 619px;
-    height: 528px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -311,7 +313,7 @@
 .end_part{
     margin: 24px auto;
     max-width: 1653px;
-    max-height: 1005px;
+    
     gap: 20px;
     display: flex;
     flex-direction: column;
@@ -320,7 +322,7 @@
 
 .tech_vaiant{
     max-width: 1645px;
-    max-height: 749px;
+    
     padding: 13px;
     background-color: #D9D9D9;
 }
@@ -338,7 +340,7 @@
 
 .sourses{
     max-width: 1645px;
-    max-height: 270px;
+    
     padding: 15px;
     background-color: #D9D9D9;
 
