@@ -8,3 +8,8 @@
     src: url(/fonts/IBMPlexMono-SemiBold.ttfg);
     font-weight: 500;
 }
+@font-face {
+    font-family: IBM Plex Mono;
+    src: url(/fonts/IBMPlexMono-Medium.ttf);
+    font-weight: 600;
+}

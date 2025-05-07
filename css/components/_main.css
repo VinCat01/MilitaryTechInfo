@@ -40,7 +40,7 @@
 }
 
 .main_btn {
-    margin: 10px 80px;
+    padding: 10px;
 
     display: flex;
     justify-content: space-between;

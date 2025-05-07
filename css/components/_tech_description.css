@@ -1,8 +1,8 @@
 .tech_description {
     display: flex;
     flex-direction: column;
-    width: 1763px;
-    height: 5769px;
+    max-width: 1863px;
+    max-height: 5769px;
     background-color: #BCBCBC;
 }
 
@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 48px auto;
-    width: 1666.17px;
+    max-width: 1666.17px;
     height: 2907px;
 }
 
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 639.17px;
+    max-width: 639.17px;
     height: 2754px;
 }
 
@@ -27,8 +27,8 @@
     display: flex;
     flex-direction: column;
 
-    width: 608px;
-    height: 1022px;
+    max-width: 608px;
+    max-height: 1122px;
     gap: 34px 0;
 }
 
@@ -41,19 +41,19 @@
     display: flex;
     flex-direction: column;
     padding: 17px 39px;
-    width: 605px;
-    height: 207px;
+    max-width: 605px;
+    max-height: 307px;
     background-color: #D9D9D9;
 }
 
 .p_content {
     text-align: center;
     font-size: 32px;
-    font-weight: 500;
+
 }
 
 .fp_left_bottom_side {
-    width: 639.17px;
+    max-width: 639.17px;
     height: 1551px;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 636.33px;
+    max-width: 636.33px;
     height: 311px;
 }
 
@@ -75,15 +75,15 @@
 }
 
 .Northrop_name {
-    width: 558px;
-    height: 35px;
+    max-width: 558px;
+    max-height: 35px;
     background-color: #D9D9D9;
     text-align: center;
-    font-weight: 500;
+    
 }
 
 .A7-D {
-    width: 608px;
+    max-width: 608px;
     height: 459px;
     display: flex;
     flex-direction: column;
@@ -98,15 +98,15 @@
 }
 
 .A7-D_name {
-    width: 108px;
-    height: 35px;
+    max-width: 108px;
+    max-height: 35px;
     background-color: #D9D9D9;
     text-align: center;
-    font-weight: 500;
+    
 }
 
 .Gau {
-    width: 617.83px;
+    max-width: 617.83px;
     height: 403px;
     display: flex;
     flex-direction: row;
@@ -120,16 +120,16 @@
 }
 
 .Gau_name {
-    width: 259px;
-    height: 219px;
+    max-width: 259px;
+    max-height: 219px;
     padding: 15px;
     background-color: #D9D9D9;
-    font-weight: 500;
+    
 }
 
 .tech_name {
     display: flex;
-    width: 955px;
+    max-width: 955px;
     height: 59px;
     align-items: center;
     justify-content: center;
@@ -139,12 +139,12 @@
 .tech_name p {
     text-align: center;
     font-size: 32px;
-    font-weight: 500;
+    
 }
 
 .short_characteristics {
-    width: 998px;
-    height: 371px;
+    max-width: 998px;
+    max-height: 371px;
     background-color: #D9D9D9;
     margin-top: 31px;
     padding: 30px;
@@ -161,8 +161,8 @@
 
 .short_description {
     margin-top: 66px;
-    width: 998px;
-    height: 272px;
+    max-width: 998px;
+    max-height: 272px;
     padding: 25px;
     background-color: #D9D9D9;
 }
@@ -180,8 +180,8 @@
 .story_of_made{
     display: flex;
     background-color: #D9D9D9;
-    width: 998px;
-    height: 2106px;
+    max-width: 998px;
+    max-height: 2506px;
     margin-top: 30px;
     padding: 13.5px;
 }
@@ -202,24 +202,24 @@
 
 .second_part{
     display: flex;
-    width: 1646px;
-    height: 1805px;
+    max-width: 1646px;
+    max-height: 1805px;
     flex-direction: row;
     justify-content: space-between;
     margin: 0px auto;
 }
 
 .sp_left_side{
-    width: 998px;
-    height: 1805px;
+    max-width: 998px;
+    max-height: 1805px;
     font-size: 24px;
     background-color: #D9D9D9;
     padding: 13.5px;
     
 }
 .sp_right_side{
-    width: 620px;
-    height: 1761px;
+    max-width: 620px;
+    max-height: 1761px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -237,7 +237,7 @@
 }
 
 .f15{
-    width: 619px;
+    max-width: 619px;
     height: 458px;
     display: flex;
     flex-direction: column;
@@ -253,15 +253,15 @@
 }
 
 .f15_name {
-    width: 140px;
-    height: 48px;
+    max-width: 140px;
+    max-height: 48px;
     background-color: #D9D9D9;
     text-align: center;
-    font-weight: 500;
+    
 }
 
 .f117{
-    width: 619px;
+    max-width: 619px;
     height: 458px;
     display: flex;
     flex-direction: column;
@@ -277,15 +277,15 @@
 }
 
 .f117_name {
-    width: 140px;
-    height: 48px;
+    max-width: 140px;
+    max-height: 48px;
     background-color: #D9D9D9;
     text-align: center;
-    font-weight: 500;
+    
 }
 
 .amg-65{
-    width: 619px;
+    max-width: 619px;
     height: 528px;
     display: flex;
     flex-direction: column;
@@ -301,17 +301,18 @@
 }
 
 .amg-65_name {
-    width: 480px;
+    max-width: 480px;
     height: 108px;
     background-color: #D9D9D9;
     text-align: center;
-    font-weight: 500;
+    
 }
 
 .end_part{
     margin: 24px auto;
     max-width: 1653px;
-    height: 905px;
+    max-height: 1005px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -319,7 +320,7 @@
 
 .tech_vaiant{
     max-width: 1645px;
-    height: 709px;
+    max-height: 749px;
     padding: 13px;
     background-color: #D9D9D9;
 }
@@ -337,7 +338,7 @@
 
 .sourses{
     max-width: 1645px;
-    height: 170px;
+    max-height: 270px;
     padding: 15px;
     background-color: #D9D9D9;
 
@@ -349,4 +350,11 @@
     justify-content: center;
     font-weight: 600;
 }
+.sourses:hover a {
+    text-decoration:underline;
+    
+}
 
+span2{
+    font-weight: 600;
+}
