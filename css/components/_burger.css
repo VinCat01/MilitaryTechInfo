@@ -9,6 +9,7 @@
     padding: 15px;
     transform: translateX(-120%);
     transition: transform .4s;
+    z-index: 10;
 }
 .burger.open{
     transition:  transform .4s;
