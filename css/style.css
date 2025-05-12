@@ -1,6 +1,7 @@
 @import 'basic/_reset.css';
 @import 'basic/_fonts.css';
 @import 'basic/_global.css';
+@import 'components/_burger.css';
 @import 'components/_header.css';
 @import 'components/_main.css';
 @import 'components/_footer.css';
