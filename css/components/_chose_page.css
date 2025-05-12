@@ -1,8 +1,8 @@
 .chose_page {
     display: flex;
     flex-direction: column;
-    width: 1763px;
-    height: 883px;
+    max-width: 1763px;
+    
     background-color: #BCBCBC;
 }
 

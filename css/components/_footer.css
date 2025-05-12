@@ -1,34 +1,17 @@
-.footer_inner{
+.footer_inner {
     max-width: 1963px;
-    height: 119px;
+    max-height: 119px;
     background-color: #575757;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.contact_left{
-    background-color: #D9D9D9;
-    display: flex;
-    justify-content: center;
-    padding: 19px;
-    flex-direction: column;
-    width: 408px;
-    height: 79px;
-}
+
+.contact_left {
+    margin-left: 10px;
 
 
-.gmail{
-    font-size: 20px;
-}
-.phone{
-    font-size: 20px;
-}
-.logo_footer{
-    width: 115.49px;
-    height: 98.72px;
-}
-.contact_right{
     background-color: #D9D9D9;
     display: flex;
     justify-content: center;
@@ -36,4 +19,36 @@
     flex-direction: column;
     max-width: 408px;
     max-height: 79px;
+}
+
+
+.gmail {
+    font-size: 20px;
+}
+
+.phone {
+    font-size: 20px;
+}
+
+.logo_footer {
+    width: 115.49px;
+    height: 98.72px;
+}
+
+.contact_right {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #D9D9D9;
+    justify-content: center;
+    padding: 19px;
+    flex-direction: column;
+    max-width: 408px;
+    max-height: 79px;
+}
+
+.contact_right p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
