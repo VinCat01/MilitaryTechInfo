@@ -1,14 +1,14 @@
 .tech_list_page{
     display: flex;
-    width: 1763px;
-    min-height: 757px;
+    max-width: 1763px;
+
     background-color: #BCBCBC;
 }
 
 .tech_list{
     margin: 67px auto;
-    width: 1614px;
-    height: 663px;
+    max-width: 1614px;
+
 
 }
 
@@ -16,14 +16,15 @@
     gap: 23px 42px;
     display: grid;
     grid-template-columns: 0fr 0fr 0fr 0fr;
+    justify-content: space-between;
 
 }
 
 .tech_list_li{
     width: 372px;
-    height: 320px;
+
     display: flex;
-    align-items: c;
+    align-items: center;
 
     flex-direction: column;
 }
@@ -47,4 +48,50 @@
     font-size: 32px;
     font-weight: 500;
 
+}
+
+
+@media (max-width:1626px) {
+    .tech_list ul {
+        display: grid;
+        grid-template-columns: 0fr 0fr 0fr;
+        gap: 61px 42px;
+        
+
+    }
+}
+
+@media (max-width:1205px) {
+    .tech_list ul {
+        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 0fr 0fr;
+        
+
+    }
+}
+
+@media (max-width:791px) {
+    .tech_list ul {
+        display: grid;
+        grid-template-columns: 0fr;
+        
+
+    }
+}
+
+@media (max-width:580px) {
+    .tech_list_li {
+        width: 296px;
+
+
+    }
+}
+
+@media (max-width:580px) {
+    .name_page {
+        font-size: 22px;
+
+
+    }
 }

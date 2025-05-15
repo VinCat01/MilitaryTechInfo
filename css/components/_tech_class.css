@@ -74,9 +74,7 @@
     }
 }
 
-@media (max-width:580px) {
-    .tech_class_select ul {}
-}
+
 @media (max-width:843px) {
     .name_page {
         font-size: 28px;
