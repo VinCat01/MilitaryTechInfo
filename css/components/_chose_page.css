@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1763px;
-    
+
     background-color: #BCBCBC;
 }
 
@@ -17,14 +17,14 @@
 
     margin: 32px auto 0;
     max-width: 1260px;
-    padding:20px;
+    padding: 20px;
 }
 
 .flag_ul {
     display: grid;
     grid-template-columns: 0fr 0fr 0fr 0fr;
     gap: 106px;
-            justify-content: center;
+    justify-content: center;
 
 }
 
@@ -53,9 +53,10 @@
     margin: 6px 0;
     background-color: #D9D9D9;
 }
+
 .county_name p {
     text-align: center;
-    
+
 }
 
 .marquee-container {
@@ -75,8 +76,13 @@
 }
 
 @keyframes scrollMarquee {
-    from { transform: translateX(0%); }
-    to   { transform: translateX(-146.5%); }
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-146.5%);
+    }
 }
 
 .marquee li {
@@ -89,36 +95,37 @@
 }
 
 
-@media (max-width:1275px){
+@media (max-width:1275px) {
     .flag_ul {
-    display: grid;
-    grid-template-columns: 0fr 0fr 0fr ;
-    gap: 106px;
+        display: grid;
+        grid-template-columns: 0fr 0fr 0fr;
+        gap: 106px;
 
+    }
 }
-}
-@media (max-width:900px){
+
+@media (max-width:900px) {
     .flag_ul {
-    display: grid;
-    grid-template-columns: 0fr 0fr  ;
-    gap: 80px;
+        display: grid;
+        grid-template-columns: 0fr 0fr;
+        gap: 80px;
 
-}
+    }
 }
 
-@media (max-width:580px){
+@media (max-width:580px) {
     .flag_ul {
-    display: grid;
-    grid-template-columns: 0fr  ;
-    gap: 50px;
+        display: grid;
+        grid-template-columns: 0fr;
+        gap: 50px;
 
-}
+    }
 }
 
-@media (max-width:580px){
+@media (max-width:580px) {
     .name_page {
         font-size: 22px;
-    
 
-}
+
+    }
 }
