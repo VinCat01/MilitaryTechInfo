@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1863px;
-    
+
     background-color: #BCBCBC;
 }
 
@@ -12,8 +12,8 @@
     justify-content: space-between;
     margin: 48px auto;
     max-width: 1666.17px;
-    gap:10px ;
-    
+    gap: 10px;
+
 }
 
 .fp_left_side {
@@ -21,7 +21,7 @@
     flex-direction: column;
     max-width: 639.17px;
 
-    
+
 }
 
 .fp_left_top_side {
@@ -29,7 +29,7 @@
     flex-direction: column;
 
     max-width: 608px;
-    
+
     gap: 34px 0;
 }
 
@@ -43,7 +43,7 @@
     flex-direction: column;
     padding: 17px 39px;
     max-width: 605px;
-    
+
     background-color: #D9D9D9;
 }
 
@@ -81,7 +81,7 @@
     max-height: 35px;
     background-color: #D9D9D9;
     text-align: center;
-    
+
 }
 
 .A7-D {
@@ -104,7 +104,7 @@
     max-height: 35px;
     background-color: #D9D9D9;
     text-align: center;
-    
+
 }
 
 .Gau {
@@ -126,13 +126,13 @@
     max-height: 219px;
     padding: 15px;
     background-color: #D9D9D9;
-    
+
 }
 
 .tech_name {
     display: flex;
     max-width: 1000px;
-    
+
     align-items: center;
     justify-content: center;
     background-color: #D9D9D9;
@@ -141,12 +141,12 @@
 .tech_name p {
     text-align: center;
     font-size: 32px;
-    
+
 }
 
 .short_characteristics {
     max-width: 998px;
-    
+
     background-color: #D9D9D9;
     margin-top: 31px;
     padding: 30px;
@@ -164,7 +164,7 @@
 .short_description {
     margin-top: 66px;
     max-width: 998px;
-    
+
     padding: 25px;
     background-color: #D9D9D9;
 }
@@ -175,34 +175,36 @@
 
 }
 
-.short_description p span{
+.short_description p span {
     font-weight: 600;
 }
 
-.story_of_made{
+.story_of_made {
     display: flex;
     background-color: #D9D9D9;
     max-width: 998px;
-    
+
     margin-top: 30px;
     padding: 13.5px;
 }
-.story_of_made p{
+
+.story_of_made p {
     text-align: left;
     font-size: 24px;
 
 
 }
-.story_of_made p span{
+
+.story_of_made p span {
     display: flex;
     font-size: 32px;
     justify-content: center;
     font-weight: 600;
 
-    
+
 }
 
-.second_part{
+.second_part {
     display: flex;
     max-width: 1646px;
     gap: 10px;
@@ -211,41 +213,44 @@
     margin: 0px auto;
 }
 
-.sp_left_side{
+.sp_left_side {
     max-width: 998px;
-    
+
     font-size: 24px;
     background-color: #D9D9D9;
     padding: 13.5px;
-    
+
 }
-.sp_right_side{
+
+.sp_right_side {
     max-width: 620px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
-.sp_left_side p span{
+
+.sp_left_side p span {
     display: flex;
     font-size: 32px;
     justify-content: center;
     font-weight: 600;
 }
-.sp_left_side span1{
+
+.sp_left_side span1 {
     font-weight: 600;
 
 }
 
-.f15{
+.f15 {
     max-width: 619px;
     gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
 
@@ -259,17 +264,17 @@
     max-height: 48px;
     background-color: #D9D9D9;
     text-align: center;
-    
+
 }
 
-.f117{
+.f117 {
     max-width: 619px;
     gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
 
@@ -283,17 +288,17 @@
     max-height: 48px;
     background-color: #D9D9D9;
     text-align: center;
-    
+
 }
 
-.amg-65{
+.amg-65 {
     max-width: 619px;
     gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
 
@@ -304,59 +309,164 @@
 
 .amg-65_name {
     max-width: 480px;
-    height: 108px;
+    
     background-color: #D9D9D9;
     text-align: center;
-    
+
 }
 
-.end_part{
+.end_part {
     margin: 24px auto;
     max-width: 1653px;
-    
+
     gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.tech_vaiant{
+.tech_vaiant {
     max-width: 1645px;
-    
+
     padding: 13px;
     background-color: #D9D9D9;
 }
-.tech_vaiant span{
+
+.tech_vaiant span {
     display: flex;
     font-size: 32px;
     justify-content: center;
     font-weight: 600;
 }
 
-.tech_vaiant span1{
+.tech_vaiant span1 {
     font-weight: 600;
 
 }
 
-.sourses{
+.sourses {
     max-width: 1645px;
-    
+
     padding: 15px;
     background-color: #D9D9D9;
 
 }
 
-.sourses span{
+.sourses span {
     display: flex;
     font-size: 32px;
     justify-content: center;
     font-weight: 600;
 }
+
 .sourses:hover a {
-    text-decoration:underline;
-    
+    text-decoration: underline;
+
 }
 
-span2{
+span2 {
     font-weight: 600;
+}
+
+@media(max-width:1400px) {
+
+    .fp_left_bottom_side {
+        gap: 780px;
+    }
+}
+
+@media(max-width:1200px) {
+
+    .fp_left_bottom_side {
+        gap: 480px;
+    }
+
+    .story_of_made p span {
+        display: flex;
+        font-size: 27px;
+        justify-content: center;
+        font-weight: 600;
+    }
+
+    .short_description p {
+        text-align: left;
+        font-size: 19px;
+    }
+
+    .short_characteristics p {
+        text-align: left;
+        font-size: 19px;
+    }
+
+    .tech_name p {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .story_of_made p {
+        font-size: 19px;
+    }
+
+    .sp_left_side {
+        max-width: 998px;
+        font-size: 19px;
+        background-color: #D9D9D9;
+        padding: 13.5px;
+    }
+
+    .sp_left_side p span {
+        display: flex;
+        font-size: 29px;
+        justify-content: center;
+        font-weight: 600;
+    }
+
+    .tech_vaiant span{
+        font-size: 29px;
+    }
+
+    .tech_vaiant p{
+        font-size: 19px;
+    }
+
+    .sourses span{
+        font-size: 29px;
+    }
+
+    .sourses a {
+        font-size: 19px;
+
+    }
+    .Gau_name p{
+        font-size: 19px;
+    }
+
+    .f15_name p{
+        font-size: 19px;
+    }
+    .Northrop_name p{
+        font-size: 19px;
+    }
+
+.A7-D p{
+        font-size: 19px;
+    }
+
+    .f117_name p{
+        font-size: 19px;
+    }
+    
+    .amg-65_name p{
+        font-size: 19px;
+    }
+}
+
+@media(max-width:1000px){
+    .fp_content a{
+        font-size: 19px;
+        
+    }
+    .Gau{
+        flex-direction: column;
+    }
 }
